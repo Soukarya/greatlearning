@@ -50,55 +50,6 @@ public class Main {
 			count++;
 			Main.printDetails(department);
 		}
-		/*
-		SuperDepartment hr = new HrDepartment();
-		SuperDepartment tech = new TechDepartment();
-		SuperDepartment admin = new AdminDepartment();
-		
-		System.out.println(" Welcome to the "+admin.departmentName());
-		System.out.println(admin.getTodaysWork());
-		System.out.println(admin.getWorkDeadLine());
-		System.out.println(admin.isTodayAHoliday());
-		
-		System.out.println("\n Welcome to the HR Department");
-		System.out.println(((HrDepartment)hr).doActivity());
-		System.out.println(hr.getTodaysWork());
-		System.out.println(hr.getWorkDeadLine());
-		System.out.println(hr.isTodayAHoliday());
-		
-		
-		System.out.println("\n\n Welcome to the "+tech.departmentName());
-		System.out.println(tech.getTodaysWork());
-		System.out.println(tech.getWorkDeadLine());
-		System.out.println(" "+((TechDepartment)tech).getStackTechInformation());
-		System.out.println(tech.isTodayAHoliday());
-		*/
 	}
 
 }
-
-/*
- * 
- * Expected Output:
- * 
- Welcome to Admin Department
-Complete your documents submission
-Complete by EOD
-Today is not a holiday
-
- Welcome to HR Department
-team Lunch
-Fill today's timesheet and mark your attendance
-Complete by EOD
-Today is not a holiday
-
-
- Welcome to Tech Department
-Complete coding of Module 1
-Complete by EOD
- Core Java
-Today is not a holiday
-
-
-
-*/
